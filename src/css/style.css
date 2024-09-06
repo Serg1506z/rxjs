@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 700px;
+}
+
+.incoming {}
+
+.container {}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: solid 1px gray;
+}
+
+.email {}
+
+.message {
+
+    min-width: 100px;
+    width: 30%;
+
+}
+
+.date_request {
+    display: flex;
+    gap: 10px;
+}
+
+.time {}
+
+.date {}
